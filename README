@@ -1,3 +1,9 @@
 git:
  $ git remote add origin git@github.com:wangleihd/tsinghua.git
 
+
+ Directonry:
+ ----------
+ |-- README
+ `-- boot      //boot system for x86_32 .
+
