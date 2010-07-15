@@ -5,5 +5,7 @@ git:
  Directonry:
  ----------
  |-- README
- `-- boot      //boot system for x86_32 .
+ |-- boot      //boot system for x86_32 .
+ |-- lib       //Leios user lib function.
+ `-- include   //head files directory.
 

@@ -5,14 +5,14 @@
 // bootmain() loads an ELF kernel image from the disk starting at
 // sector 1 and then jumps to the kernel entry routine.
 
-#include "types.h"
-#include "x86.h"
+#include "../include/types.h"
+#include "../include/x86.h"
 
 #define CRTPORT 0x3d4
 #define LPTPORT 0x378
 #define BACKSPACE 0x100
 static ushort *crt = (ushort*)0xb8000;  // CGA memory
-static char* message="This is an xv6 bootloader";
+static char* message="This is an leios bootloader...";
 static char* prompt = "$";
 
 // Copy console output to parallel port, which you can tell
